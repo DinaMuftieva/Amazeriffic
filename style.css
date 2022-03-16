@@ -1,16 +1,38 @@
 body {
 background: #f9e933;
 }
-header, main, footer {
+header,main,footer {
 min-width: 855px;
 }
-header.container, main.container, footer.container {
+header.container, main.main, footer.footer {
 max-width: 855px;
 margin: auto;
 }
 header {
 background: white;
+overflow: auto;
 }
 main {
 background: white;
 }
+
+header h1 {
+float: left;
+width: 570px;
+}
+header nav {
+float: right;
+width: 285px;
+}
+main .main{
+	display: flex;
+    justify-content: space-between;
+}
+footer .footer .contact{
+	float: left;
+	width: 570px;
+}
+footer .footer .sitemap {
+	float: right;
+	width: 285px;
+    }
