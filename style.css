@@ -9,15 +9,23 @@ max-width: 855px;
 margin: auto;
 }
 header {
+padding-top: 30px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
 background: white;
 overflow: auto;
 }
 main {
 background: white;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
 }
 
 header h1 {
 font-family: 'Ubuntu', sans-serif;
+font-size: xx-large;
 float: left;
 width: 570px;
 }
@@ -28,9 +36,14 @@ width: 285px;
 }
 main h2{
 	font-family: 'Ubuntu', sans-serif;
+	font-size: x-large;
+	padding-bottom: 10px;
 }
 main h3{
+	padding-top: 30px;
 	font-family: 'Ubuntu', sans-serif;
+	font-size: x-large;
+	padding-bottom: 10px;
 }
 main p, ul{
 	font-family: 'Roboto', sans-serif;
@@ -41,6 +54,12 @@ main .main{
 }
 footer h5{
 	font-family: 'Ubuntu', sans-serif;
+	font-size: large;
+	padding-bottom: 10px;
+}
+footer{
+	padding-left: 30px;
+	padding-right: 30px;
 }
 footer .footer .contact{
 	float: left;
