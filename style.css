@@ -17,16 +17,30 @@ background: white;
 }
 
 header h1 {
+font-family: 'Ubuntu', sans-serif;
 float: left;
 width: 570px;
 }
 header nav {
+font-family: 'Roboto', sans-serif;	
 float: right;
 width: 285px;
+}
+main h2{
+	font-family: 'Ubuntu', sans-serif;
+}
+main h3{
+	font-family: 'Ubuntu', sans-serif;
+}
+main p, ul{
+	font-family: 'Roboto', sans-serif;
 }
 main .main{
 	display: flex;
     justify-content: space-between;
+}
+footer h5{
+	font-family: 'Ubuntu', sans-serif;
 }
 footer .footer .contact{
 	float: left;
@@ -36,3 +50,6 @@ footer .footer .sitemap {
 	float: right;
 	width: 285px;
     }
+footer p, ul{
+	font-family: 'Roboto', sans-serif;
+}
