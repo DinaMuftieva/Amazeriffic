@@ -54,4 +54,4 @@ var main = function () {
 	});
 	$(".tabs a:nth-child(1) span").trigger("click");
 };
-$(document).ready(main);
+$().ready(main);

@@ -65,13 +65,6 @@ main .main{
     padding: 5px;
 }
 
-.tabs a span.active {
-    background: #eee;
-    }
-
-main .main-list .content {
-    background-color: #eee;
-}
 footer h5{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: large;
@@ -94,7 +87,7 @@ footer p, ul{
 }
 .content .input-task {
 	border-radius: 15px;
-	height: 5%;
+	height: 10%;
 	width: 25%;
 	margin: 1%;
 }
@@ -102,7 +95,7 @@ footer p, ul{
 .add-task-btn {
 	background-color: yellow;
 	color: black;
-	padding: 5px 20px;
+	padding: 5px 30px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
