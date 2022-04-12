@@ -1,0 +1,103 @@
+body {
+background: yellow;
+}
+header,main,footer {
+min-width: 855px;
+}
+header.container, main.main, footer.footer {
+max-width: 855px;
+margin: auto;
+}
+header {
+padding-top: 30px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+background: white;
+overflow: auto;
+}
+main {
+background: white;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+}
+header h1 {
+font-family: 'Ubuntu', sans-serif;
+font-size: xx-large;
+float: left;
+width: 570px;
+}
+header nav {
+font-family: 'Roboto', sans-serif;	
+float: right;
+width: 285px;
+}
+main h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: x-large;
+	padding-bottom: 10px;
+}
+main h3{
+	padding-top: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: x-large;
+	padding-bottom: 10px;
+}
+main p, ul{
+	font-family: 'Roboto', sans-serif;
+}
+main .main{
+	display: flex;
+    justify-content: space-between;
+}
+.main-list .content ul{
+        margin-top: 0;
+        width: 60%;
+    }
+.tabs a span {
+    display: inline-block;
+    border-radius: 5px 5 px 0 0;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    background: #ddd;
+    padding: 5px;
+}
+
+footer h5{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: large;
+	padding-bottom: 10px;
+}
+footer{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+footer .footer .contact{
+	float: left;
+	width: 570px;
+}
+footer .footer .sitemap {
+	float: right;
+	width: 285px;
+    }
+footer p, ul{
+	font-family: 'Roboto', sans-serif;
+}
+.content .input-task {
+	border-radius: 15px;
+	height: 10%;
+	width: 25%;
+	margin: 1%;
+}
+
+.add-task-btn {
+	background-color: yellow;
+	color: black;
+	padding: 5px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+}

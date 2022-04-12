@@ -1,18 +1,13 @@
-var main = function (toDoObjects) {
+var main = function () {
 	"use strict";
-	var toDos = toDoObjects.map(function (toDo) {
-	// просто возвращаем описание
-	// этой задачи
-	return toDo.description;
-	});
-	/*var toDos = [
+	var toDos = [
 	"Закончить писать эту книгу",
 	"Вывести Грейси на прогулку в парк", 
 	"Ответить на электронные письма", 
 	"Подготовиться к лекции в понедельник", 
 	"Обновить несколько новых задач", 
 	"Купить продукты"
-	];*/
+	];
 	$(".tabs a span").toArray().forEach(function (element) {
 		//создаем обработку щелчков для этого элемента
 		$(element).on("click", function () {
@@ -59,9 +54,4 @@ var main = function (toDoObjects) {
 	});
 	$(".tabs a:nth-child(1) span").trigger("click");
 };
-$(document).ready(function () {
-$.getJSON("todos.json", function (toDoObjects) {
-// вызов функции main с аргументом в виде объекта toDoObjects
-main(toDoObjects);
-});
-});
+$().ready(main);
