@@ -65,6 +65,7 @@ main .main{
     padding: 5px;
 }
 
+
 footer h5{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: large;
@@ -100,4 +101,10 @@ footer p, ul{
 	text-decoration: none;
 	display: inline-block;
 	font-size: 14px;
+}
+.input-tag {
+	border-radius: 15px;
+	height: 5%;
+	width: 25%;
+	margin: 1%;
 }
